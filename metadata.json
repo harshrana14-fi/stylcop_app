@@ -1,0 +1,23 @@
+{
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "expo": {
+    "name": "stylcop",
+    "slug": "stylcop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#000000",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow stylcop to scan your wardrobe."
+        }
+      ]
+    ]
+  },
+  "name": "stylcop — Gen-Z AI Fashion Platform",
+  "description": ""
+}

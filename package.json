@@ -1,0 +1,47 @@
+{
+  "name": "stylcop-—-gen-z-ai-fashion-platform",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "backend": "cd backend && node server.js",
+    "dev": "concurrently \"npm run backend\" \"npm start\""
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~6.1.2",
+    "@google/genai": "^1.38.0",
+    "@google/generative-ai": "^0.21.0",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "expo": "~54.0.0",
+    "expo-blur": "~15.0.8",
+    "expo-camera": "~17.0.10",
+    "expo-file-system": "~19.0.21",
+    "expo-image-picker": "~17.0.10",
+    "expo-linear-gradient": "~15.0.8",
+    "expo-status-bar": "~3.0.9",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react-native": "^0.563.0",
+    "mongoose": "^9.1.5",
+    "multer": "^2.0.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-image-crop-picker": "^0.51.1",
+    "react-native-svg": "^15.15.1",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@types/react": "~19.1.10",
+    "concurrently": "^9.2.1",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}

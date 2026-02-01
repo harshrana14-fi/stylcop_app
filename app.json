@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "stylcop — AI Fashion Intelligence",
+    "slug": "stylcop-ai-fashion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stylcop.fashion"
+    },
+    "android": {
+      "package": "com.stylcop.fashion",
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
